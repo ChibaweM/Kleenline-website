@@ -1,9 +1,11 @@
 import React from 'react'
+import ContentMenu from './ContentMenu'
 
 function Header() {
   return (
-    <div>
-      this ios the header
+    <div className='header'>
+        <img src='' alt='picture'/>
+        <ContentMenu></ContentMenu>
     </div>
   )
 }
